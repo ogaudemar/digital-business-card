@@ -7,7 +7,7 @@ function App() {
     <>
       
       <header>
-        <img src='/public/odg.jpg' className="headshot" alt="odd headshot" />
+        <img src='/odg.jpg' className="headshot" alt="odd headshot" />
       </header>
       <main>
         <div className="contacts">
@@ -15,8 +15,8 @@ function App() {
           <h2 className='title'>Fullstack product maker</h2>
           <p className='website'>subo.ai</p>
           <div className='buttons'>
-            <a href="mailto:odg@clearswell.com" className='links' id='Email'><img src="/public/Mail.png"/>Email</a>
-            <a href="https://linkedin.com/in/ogaudemar" className='links' id='LinkedIn'><img src="/public/linkedin.png"/>LinkedIn</a>
+            <a href="mailto:odg@clearswell.com" className='links' id='Email'><img src="/Mail.png"/>Email</a>
+            <a href="https://linkedin.com/in/ogaudemar" className='links' id='LinkedIn'><img src="/linkedin.png"/>LinkedIn</a>
           </div>
         </div>        
       <div className="bio">
@@ -27,9 +27,9 @@ function App() {
       </div>
       </main>
       <footer>
-        <a className="social" href="https://x.com/ogaudemar"><img src="/public/Twitter.png"/></a>
-        <a className="social" href="https://instagram.com/olivdeg"><img src="/public/Instagram.png"/></a>
-        <a className="social" href="https://github.com/ogaudemar"><img src="/public/Github.png"/></a>
+        <a className="social" href="https://x.com/ogaudemar"><img src="/Twitter.png"/></a>
+        <a className="social" href="https://instagram.com/olivdeg"><img src="/Instagram.png"/></a>
+        <a className="social" href="https://github.com/ogaudemar"><img src="/Github.png"/></a>
       </footer>
 
     </>
