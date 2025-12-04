@@ -1,12 +1,13 @@
 #root {
   
-  max-width: 317px;
+  max-width: 400px;
   margin: 2em auto;
   background-color: #1A1B21;
   color: white;
   display: flex;
   flex-direction: column;
-    border-radius: 1em;
+  border-radius: 1em;
+  box-shadow: -4px 1px 5px #e1287e;
 }
 .headshot{
   width: 100%;
@@ -39,19 +40,20 @@ p{
 .links:hover{
     box-shadow: 2px 2px 5px #e1287e;
     cursor: pointer;
-
 }
 .contacts{
   text-align: center;
 }
 h1{
   font-size: 1.6rem;
+  margin-bottom: 0;
 }
-h2{
+.title{
   font-size: 0.8rem;
-  color: #F3BF99;
-  font-weight: regular;
+  color: #e1287e;
+  font-weight: normal;
 }
+
 h3{
   font-size: 1rem;
 }
@@ -74,4 +76,8 @@ footer{
   display: flex;
   justify-content: space-evenly;
   border-radius: 0 0 1em 1em;
+}
+
+.social:hover{
+  opacity: 50%;
 }
